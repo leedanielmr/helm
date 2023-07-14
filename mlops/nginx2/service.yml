@@ -1,11 +1,11 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: mlopsnginx2
-spec:
-  ports:
-  - port: 80
-    protocol: TCP
-    targetPort: 80
-  selector:
-    run: mlopsnginx2
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: mlopsnginx2
+# spec:
+#   ports:
+#   - port: 80
+#     protocol: TCP
+#     targetPort: 80
+#   selector:
+#     run: mlopsnginx2
