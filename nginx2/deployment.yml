@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mlopsnginx
+  name: mlopsnginx2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: mlopsnginx
+      run: mlopsnginx2
   template:
     metadata:
       labels:
-        run: mlopsnginx
+        run: mlopsnginx2
     spec:
       containers:
       - image: nginx
-        name: mlopsnginx
+        name: mlopsnginx2
         ports:
         - containerPort: 80
